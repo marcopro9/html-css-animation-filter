@@ -21,3 +21,29 @@
 .ex-3-square:hover{
   border-radius: 50%;
 }
+
+/* esercizio 4 */
+.ex-4-square{
+  transition: background-color 2s;
+}
+.ex-4-square:hover{
+  background-color: #f5f5f5;
+}
+
+/* esercizio 5 */
+.ex-5-square{
+  transition: height 2s, width 2s;
+}
+.ex-5-square:hover{
+  height: 120px;
+  width: 120px;
+}
+.ex-5-square:active{
+  height: 25px;
+  width: 25px;
+}
+
+/* esercizio 6 */
+.ex-6-img:hover{
+  filter: grayscale(1);
+}
