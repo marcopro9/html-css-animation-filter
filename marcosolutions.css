@@ -47,3 +47,32 @@
 .ex-6-img:hover{
   filter: grayscale(1);
 }
+
+/* esercizio 7 */
+.ex-7-img{
+  transition: filter 2s;
+}
+.ex-7-img:hover{
+  filter: grayscale(1);
+}
+
+/* esercizio 8 */
+.ex-8-img{
+  transition: filter 3s, border-radius 3s;
+}
+.ex-8-img:hover{
+  filter: grayscale(1);
+  border-radius: 50px;
+}
+
+/* esercizio 9 */
+.ex-9-img{
+  transition: filter 3s, border-radius 3s, width 3s;
+}
+.ex-9-img:hover{
+  filter: grayscale(1);
+  border-radius: 50px;
+  width: 50%;
+}
+
+/* esercizio 10 */
